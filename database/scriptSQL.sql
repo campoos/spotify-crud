@@ -20,12 +20,12 @@ create table tbl_funcoes_creditados (
 
 create table tbl_creditados (
 	id int not null primary key auto_increment,
-	nome varchar(100) not null
+	nome_creditado varchar(100) not null
 );
 
 create table tbl_idiomas (
 	id int not null primary key auto_increment,
-	nome varchar(100) not null
+	nome_idioma varchar(100) not null
 );
 
 create table tbl_usuarios (
@@ -41,12 +41,12 @@ create table tbl_usuarios (
 
 create table tbl_generos (
 	id int not null primary key auto_increment,
-	nome varchar(100) not null
+	nome_genero varchar(100) not null
 );
 
 create table tbl_bandas (
 	id int not null primary key auto_increment,
-	nome varchar(100) not null,
+	nome_banda varchar(100) not null,
 	foto_url text not null,
 	biografia varchar(500),
 	email_login varchar(100) not null,
